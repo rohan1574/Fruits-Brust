@@ -26,30 +26,13 @@
 </head>
 <body>
     <header class="mx-60">
+    
       <!-- navbar -->
       <section class="my-10 ">
-        <div class="navbar bg-primary text-primary-content rounded-3xl">
-            <div class="navbar-left">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
-                </ul>
-              </div>
-             
-            </div>
-            <div class="navbar-start hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
+        <div class="navbar max-w-screen-xl mx-auto my-8 bg-[#F85559] rounded-full">
+          <div class="navbar hidden lg:flex flex-1">
+              
+              <ul class="menu menu-horizontal px-1 text-white">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
@@ -66,7 +49,7 @@
               </div>
               
             </div>
-            <div class="navbar-end sm:hidden">
+            <div class="navbar-end sm:hidden ">
              <div class=" -mr-1 form-control">
                 <input type="text" placeholder="Search" class="input input-bordered w-[300px]" />
                 
@@ -132,7 +115,7 @@
         </div>
        </section>
        <!-- relative cards -->
-       <section class=" mx-32 -mt-20 bg-white relative rounded-xl ">
+       <section class=" mx-32 -mt-20 bg-white relative rounded-xl sm:hidden ">
       <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5  border border-gray-700 rounded-xl">  
           <div class="card   ">
           <figure class="">
@@ -183,7 +166,7 @@
        </section>
        <!-- deal of day -->
        <section>
-        <div class="flex flex-col lg:flex-row my-16">
+        <div class="flex flex-col md:flex-row my-16">
           <div>
              <h1 class="text-5xl font-bold mb-5">Deal of the day</h1>
              <p class="text-[#121212] text-[16px] font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -385,7 +368,7 @@
             </div>
           </div>
         </div>
-        <div class="mx-[500px]">
+        <div class="mx-[500px] sm:hidden">
           <button class="btn btn-secondary px-10 inline-block ">Shop All</button>
         </div>
        
@@ -464,12 +447,12 @@
 
     <!-- why choose us -->
     <section class="mx-60 my-10">
-      <div class="text-center">
+      <div class="text-center sm:hidden">
         <h1 class="text-center font-extrabold text-5xl mb-4">Why Choose Us</h1>
         <p class="mb-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
       <!-- first part -->
-      <div class="grid grid-cols-1  md:grid-cols-3 gap-4  mt-4">
+      <div class="grid grid-rows-1   md:grid-cols-3 gap-4  mt-4">
         <div class="grid grid-cols-1 ">
           <div class="flex mt-4 gap-4">
           <div >
