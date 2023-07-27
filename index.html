@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <!-- tailwind color link -->
     <script>
         tailwind.config = {
@@ -65,8 +66,8 @@
               </div>
               
             </div>
-            <div class="navbar-end">
-             <div class="-mr-1 form-control">
+            <div class="navbar-end sm:hidden">
+             <div class=" -mr-1 form-control">
                 <input type="text" placeholder="Search" class="input input-bordered w-[300px]" />
                 
               </div>
@@ -79,14 +80,14 @@
        <!-- faq -->
        <section>
         <div class="carousel rounded-lg ">
-          <div id="slide1" class="carousel-item relative  w-full">
-              <div class="hero min-h-screen rounded-lg " style="background-image: url(./images/banner1.png);" >
+          <div id="slide1" class="carousel-item relative sm:w[335px] md:w-full">
+              <div class="hero  " style="background-image: url(./images/banner1.png);" >
                   <div class="hero-overlay bg-opacity-60"></div>
                   <div class="hero-content text-center text-neutral-content">
-                    <div class="max-w-md">
-                      <h1 class="mb-5 text-7xl font-bold">Exotic tastes at your<br> doorstep</h1>
+                    <div class="">
+                      <h1 class="mb-5 text-7xl w-[] font-bold">Exotic tastes at your<br> doorstep</h1>
                       <p class="mb-5">We supply highly quality organic products</p>
-                      <button class="btn btn-primary">Get Started</button>
+                      <button class="btn btn-secondary">Shop Now</button>
                     </div>
                   </div>
                 </div>
@@ -96,13 +97,13 @@
             </div>
           </div> 
           <div id="slide2" class="carousel-item relative w-full">
-              <div class="hero min-h-screen" style="background-image: url(./images/banner2.png);">
+              <div class="hero " style="background-image: url(./images/banner2.png);">
                   <div class="hero-overlay bg-opacity-60"></div>
                   <div class="hero-content text-center text-neutral-content">
-                    <div class="max-w-md">
-                      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                      <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                      <button class="btn btn-primary">Get Started</button>
+                    <div class="">
+                      <h1 class="mb-5 text-7xl w-[] font-bold">Exotic tastes at your<br> doorstep</h1>
+                      <p class="mb-5">We supply highly quality organic products</p>
+                      <button class="btn btn-secondary">Shop Now</button>
                     </div>
                   </div>
                 </div>
@@ -112,13 +113,13 @@
             </div>
           </div> 
           <div id="slide3" class="carousel-item relative w-full">
-              <div class="hero min-h-screen" style="background-image: url(./images/banner3.png);">
+              <div class="hero h-[600px] " style="background-image: url(./images/banner3.png);">
                   <div class="hero-overlay bg-opacity-60"></div>
                   <div class="hero-content text-center text-neutral-content">
-                    <div class="max-w-md">
-                      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                      <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                      <button class="btn btn-primary">Get Started</button>
+                    <div class="">
+                      <h1 class="mb-5 text-7xl w-[] font-bold">Exotic tastes at your<br> doorstep</h1>
+                      <p class="mb-5">We supply highly quality organic products</p>
+                      <button class="btn btn-secondary">Shop Now</button>
                     </div>
                   </div>
                 </div>
@@ -138,7 +139,7 @@
             <img src="/images/fruit1.png" alt="Shoes" class=" h-28 w-36 " />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
+            <h2 class="card-title">Strawberry</h2>
             
           </div>
           </div>
@@ -147,7 +148,7 @@
             <img src="/images/fruit2.png" alt="Shoes" class="h-28 w-36" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
+            <h2 class="card-title">Orange</h2>
             
           </div>
         </div>
@@ -156,7 +157,7 @@
             <img src="/images/fruit3.png" alt="Shoes" class="h-28 w-36" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
+            <h2 class="card-title">Mango</h2>
             
           </div>
         </div>
@@ -165,7 +166,7 @@
             <img src="/images/fruit4.png" alt="Shoes" class="h-28 w-36" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
+            <h2 class="card-title">Strawberry</h2>
             
           </div>
         </div>
@@ -174,7 +175,7 @@
             <img src="/images/fruit5.png" alt="Shoes" class="h-28 w-36" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
+            <h2 class="card-title">Mango</h2>
             
           </div>
         </div>
@@ -182,13 +183,13 @@
        </section>
        <!-- deal of day -->
        <section>
-        <div class="flex">
+        <div class="flex flex-col lg:flex-row my-16">
           <div>
-             <h1>Deal of the day</h1>
-             <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+             <h1 class="text-5xl font-bold mb-5">Deal of the day</h1>
+             <p class="text-[#121212] text-[16px] font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="grid grid-rows-1 md:grid-flow-col gap-5 text-center auto-cols-max">
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
                   <span style="--value:15;"></span>:
@@ -260,15 +261,15 @@
             </div>
           </div>
         </div>
-        <!-- card-1 -->
+        <!-- card-2 -->
         <div id="btn" class="card w-[270px] h-[477px] bg-base-100 shadow-xl">
           <figure class="">
-            <img src="/images/fruit6.png" alt="Shoes" class="" />
+            <img src="/images/fruit7.png" alt="Shoes" class="" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title my-2">12.90$ - 18.85$</h2>
             <div class="w-64 h-[1px] bg-zinc-300 "></div>
-            <p class="py-5">Apples</p>
+            <p class="py-5">Orange</p>
             <div class="rating pb-5">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
@@ -284,9 +285,9 @@
             <form method="dialog" class="modal-box">
 
               <div class="card">
-                <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
+                <figure><img src="/images/fruit7.png" alt="Shoes" /></figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">Apple!</h2>
+                  <h2 class="card-title">Orange</h2>
                   <p>If a dog chews Apple whose Apples does he choose?</p>
                   <div class="card-actions justify-start">
                     <button class="btn border-red-600 text-red-600">Close</button>
@@ -301,15 +302,15 @@
             </div>
           </div>
         </div>
-        <!-- card-1 -->
+        <!-- card-3 -->
         <div id="btn" class="card w-[270px] h-[477px] bg-base-100 shadow-xl">
           <figure class="">
-            <img src="/images/fruit6.png" alt="Shoes" class="" />
+            <img src="/images/fruit8.png" alt="Shoes" class="" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title my-2">12.90$ - 18.85$</h2>
             <div class="w-64 h-[1px] bg-zinc-300 "></div>
-            <p class="py-5">Apples</p>
+            <p class="py-5">Red Dragon</p>
             <div class="rating pb-5">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
@@ -325,9 +326,9 @@
             <form method="dialog" class="modal-box">
 
               <div class="card">
-                <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
+                <figure><img src="/images/fruit8.png" alt="Shoes" /></figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">Apple!</h2>
+                  <h2 class="card-title">Red Dragon</h2>
                   <p>If a dog chews Apple whose Apples does he choose?</p>
                   <div class="card-actions justify-start">
                     <button class="btn border-red-600 text-red-600">Close</button>
@@ -342,15 +343,15 @@
             </div>
           </div>
         </div>
-        <!-- card-1 -->
+        <!-- card-4 -->
         <div id="btn" class="card w-[270px] h-[477px] bg-base-100 shadow-xl">
           <figure class="">
-            <img src="/images/fruit6.png" alt="Shoes" class="" />
+            <img src="/images/fruit9.png" alt="Shoes" class="" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title my-2">12.90$ - 18.85$</h2>
             <div class="w-64 h-[1px] bg-zinc-300 "></div>
-            <p class="py-5">Apples</p>
+            <p class="py-5">Banana</p>
             <div class="rating pb-5">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
@@ -366,9 +367,9 @@
             <form method="dialog" class="modal-box">
 
               <div class="card">
-                <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
+                <figure><img src="/images/fruit9.png" alt="Shoes" /></figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">Apple!</h2>
+                  <h2 class="card-title">Banana</h2>
                   <p>If a dog chews Apple whose Apples does he choose?</p>
                   <div class="card-actions justify-start">
                     <button class="btn border-red-600 text-red-600">Close</button>
@@ -376,35 +377,82 @@
                   </div>
                 </div>
               </div>
-
+                
 
         </form>
+        
           </dialog>
             </div>
           </div>
         </div>
+        <div class="mx-[500px]">
+          <button class="btn btn-secondary px-10 inline-block ">Shop All</button>
+        </div>
+       
         <!-- Team membars -->
       
       
     </main>
+
+    </section>
     <section class="mx-60">
-      <div class="hero min-h-screen" style="background-image: url(./images/team.png);">
+      <div class="hero h-[690px] " style="background-image: url(./images/team.png);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-             <div class="grid grid-cols-4">
-              <div>
-                <img src="./images/member1.png" alt="">
-                <h1>Awlad Hossain</h1>
-                <p>Fruits Expert</p>
+          <div class="">
+            <h1 class="mb-5 text-2xl md:text-5xl font-bold">Meet the team section</h1>
+            <p class="mb-5 text-center text-xs md:text-2xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+             <div class="grid  grid-cols-1 lg:grid-cols-4 gap-2">
+              <div class="">
+                <img src="./images/member1.png" alt="" class="w-[140px] h-[140px] ">
+                <h1 class="text-[24px]">Awlad Hossain</h1>
+                <p class="mb-3">Fruits Expert</p>
                 <div>
-                
-                  
-                  <box-icon class="bg-red-600 " type='logo' name='facebook-circle'></box-icon>
-                  <box-icon class="bg-red-600" name='facebook' type='logo' ></box-icon>
-                  <box-icon class="bg-red-600 text-white" name='facebook-square' type='logo' ></box-icon>
+                <div class="grid grid-cols-3">
+                  <img src="./images/facebook 1.png" alt="">
+                  <img src="./images/twitter (1) 1.png " alt="">
+                  <img src="./images/linkedin 1.png " alt="">
+                </div>
+                 
+              </div>
+             </div>
+              <div>
+                <img src="./images/member2.png" alt="" class="w-[140px] h-[140px]">
+                <h1 class="text-[24px]">Safia Chowdhury</h1>
+                <p class="mb-3">Fruits Expert</p>
+                <div>
+                <div class="grid grid-cols-3">
+                  <img src="./images/facebook 1.png" alt="">
+                  <img src="./images/twitter (1) 1.png " alt="">
+                  <img src="./images/linkedin 1.png " alt="">
+                </div>
+                 
+              </div>
+             </div>
+              <div>
+                <img src="./images/member3.png" alt="" class="w-[140px] h-[140px]">
+                <h1 class="text-[24px]">Rokib Hossain</h1>
+                <p class="mb-3">Fruits Expert</p>
+                <div>
+                <div class="grid grid-cols-3">
+                  <img src="./images/facebook 1.png" alt="">
+                  <img src="./images/twitter (1) 1.png " alt="">
+                  <img src="./images/linkedin 1.png " alt="">
+                </div>
+                 
+              </div>
+             </div>
+              <div>
+                <img src="./images/member4.png" alt="" class="w-[140px] h-[140px]">
+                <h1 class="text-[24px]">Chaity</h1>
+                <p class="mb-3">Fruits Expert</p>
+                <div>
+                <div class="grid grid-cols-3">
+                  <img src="./images/facebook 1.png" alt="">
+                  <img src="./images/twitter (1) 1.png " alt="">
+                  <img src="./images/linkedin 1.png " alt="">
+                </div>
+                 
               </div>
              </div>
           </div>
@@ -415,16 +463,16 @@
     </section>
 
     <!-- why choose us -->
-    <section class="mx-60">
+    <section class="mx-60 my-10">
       <div class="text-center">
-        <h1>Why Choose Us</h1>
-        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <h1 class="text-center font-extrabold text-5xl mb-4">Why Choose Us</h1>
+        <p class="mb-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
       <!-- first part -->
-      <div class="grid grid-cols-3 gap-4  mt-4">
+      <div class="grid grid-cols-1  md:grid-cols-3 gap-4  mt-4">
         <div class="grid grid-cols-1 ">
           <div class="flex mt-4 gap-4">
-          <div class="">
+          <div >
             <box-icon class="w-9 h-9 border border-b-white rounded-lg bg-gray-200 " type=' ' name='universal-access'></box-icon>
           </div>
           
@@ -517,27 +565,28 @@
     
    <!-- Footer section -->
    <footer>
-   <section class="footer footer-center p-10 bg-base-200 text-base-content ">
+   <section class="footer footer-center  p-10 bg-black text-base-content ">
     <div class="flex">
       <img src="./images/logo.png" alt="">
-      <h1>Fruit Burst</h1>
+      <h1 class="text-white font-bold text-4xl">Fruit Burst</h1>
     </div>
-    <div class="grid grid-flow-col gap-4">
+    <div class="grid grid-flow-col text-white gap-4">
       <a class="link link-hover hover:bg-fuchsia-700 hover:text-white  ">About us</a> 
       <a class="link link-hover bg-blue-500 active:bg-blue-600">Contact</a> 
       <a class="link link-hover">Jobs</a> 
       <a class="link link-hover">Press kit</a>
     </div> 
     <div>
-      <div class="grid grid-flow-col gap-4">
-        <box-icon class="" type='logo' name='twitter'></box-icon>
-        <box-icon name='facebook-circle' type='logo' ></box-icon>
-        <box-icon name='youtube' type='logo' ></box-icon>
-        <box-icon name='linkedin' type='logo' ></box-icon>
-        <box-icon name='instagram' type='logo' ></box-icon>
-        <box-icon name='apple' type='logo' ></box-icon>
+      <div class="grid grid-flow-col gap-4"> 
+        <img src="./images/twitter 1.png " alt="">
+        <img src="./images/face.png " alt="">
+        <img src="./images/Group 49.png" alt="">
+        <img src="./images/linkedin 1 (1).png" alt="">
+        <img src="./images/instagram 1.png" alt="">
+        <img src="./images/apple 1 (1).png" alt="">
+
     </div> 
-    <div>
+    <div class="text-white">
       <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
     </div>
   </section>
